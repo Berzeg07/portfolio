@@ -60,7 +60,7 @@
 		color:#fff;
 		font-family: "RobotoMedium";
 		display: inline-block;
-		margin-right: 17px;
+		// margin-right: 17px;
 		margin-top: 15px;
 	}
 	.dd-skype{
@@ -74,10 +74,15 @@
 	a{
 		font-family: "RobotoCondensedRegular";
 		display: inline-block;
-		font-size: 14px;
+		font-size: 15px;
 		color:#fff;
 		border:1px solid #fff;
-		padding: 5px 10px;
+		padding: 5px 6px;
+		transition:0.7s;
+	}
+	a:hover{
+		background:#fff;
+		color:#2098D1;
 	}
 }
 
@@ -112,12 +117,19 @@
 			}
 		}
 	}
-	.dd-contact{
-		text-align: right;
-	}
+
 
 }
 
 @media only screen and (min-width : 1248px) {
+		.dd-contact{
+		text-align: right;
+		span{
+			margin-right: 17px;
+		}
+		a{
+			padding: 5px 10px;
+		}
+	}
 
 }
