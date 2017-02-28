@@ -1,4 +1,4 @@
-<?php require_once('includes/header.php'); ?>
+
 
 <!doctype html>
 <html lang="ru">

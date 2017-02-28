@@ -1,0 +1,115 @@
+
+/* Header
+========================*/
+.dd-burger{
+	position: absolute;
+	right: 20px;
+	top: 25px;
+	cursor: pointer;
+}
+.mobile-menu{
+	display: none;
+}
+.dd-header-wrap{
+	background:#2098D1;
+	padding: 10px 0px;
+}
+.dd-logo-hover:hover{
+	.dd-slogan{
+		span{
+			color:#291444;
+		}
+	}
+}
+.dd-main-menu{
+	ul{
+		text-align: center;
+		li{
+			margin-bottom: 5px;
+		}
+	}
+	a{
+		color:#fff;
+		font-family: "RobotoCondensedBold";
+		font-size: 15px;
+		text-transform: uppercase;
+	}
+	a:hover{
+		border-bottom:2px solid #fff;
+	}
+}
+.dd-active{
+	border-bottom:2px solid #fff;
+}
+.dd-box{
+	display: inline-block;
+}
+.dd-slogan{
+	vertical-align: top;
+	padding-top: 3px;
+	span{
+		display: inline-block;
+		font-family: "RobotoBold";
+		color:#fff;
+		transition:0.5s;
+	}
+}
+.dd-contact{
+	text-align:center;
+	span{
+		color:#fff;
+		font-family: "RobotoMedium";
+		display: inline-block;
+		margin-right: 17px;
+		margin-top: 15px;
+	}
+	span:first-child{
+		background:url(../img/s.png) no-repeat left center;
+		padding-left: 26px;
+	}
+	span:last-child{
+		background:url(../img/p.png) no-repeat left center;
+		padding-left: 26px;
+	}
+}
+
+@media only screen and (min-width : 320px) {
+
+}
+
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 768px) {
+
+
+
+}
+
+@media only screen and (min-width : 992px) {
+	.dd-burger{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.dd-main-menu{
+		padding-top: 14px;
+		ul{
+			text-align: center;
+			li{
+				display: inline-block;
+				margin-right: 36px;
+			}
+		}
+	}
+	.dd-contact{
+		text-align: right;
+	}
+
+}
+
+@media only screen and (min-width : 1248px) {
+
+}
