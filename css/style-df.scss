@@ -22,10 +22,10 @@
 	margin: 0 0 -5px 0;
 }
 .df-boxes .dfliblock:nth-child(1){
-	background-color: #291444;
+	background-color: #1E1E1E;
 }
 .df-boxes .dfliblock:nth-child(2){
-	background-color: #ccc;
+	background-color: #ebecf8;
 }
 .df-boxes .dfliblock:nth-child(3){
 	background-color: #33363B;
@@ -39,6 +39,26 @@
 .df-boxes .dfliblock:nth-child(6){
 	background-color:#f8f8f8;
 }
+.df-boxes .dfliblock:nth-child(7){
+	background-color:#d8e2ea;
+}
+.df-boxes .dfliblock:nth-child(8){
+	background-color:#f5f5f5;
+}
+.df-boxes .dfliblock:nth-child(9){
+	background-color:#edfdf2;
+}
+.df-boxes .dfliblock:nth-child(10){
+	background-color:#0e0055;
+}
+.df-boxes .dfliblock:nth-child(11){
+	background-color:#fae5cc;
+}
+.df-boxes .dfliblock:nth-child(12){
+	background-color:#898989;
+}
+
+
 .dflink{
 	display: inline-block;
 	-o-transition: all 0.3s linear 0s;
@@ -101,13 +121,12 @@
 	}
 }
 .dfbutton{
-	font-family: "RobotoBold";
-	width: 120px;
+	font-family: "RobotoBold";	
 	text-align: center;
-	display: block;
+	display: inline-block;
 	background-color: #2098d1;
 	color: #fff;
-	padding: 7px 0px 10px 0;
+	padding: 7px 10px 10px 10px;
 	border-radius: 5px;
 	margin: 0px auto 0px auto;
 	position: relative;
