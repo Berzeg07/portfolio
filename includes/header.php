@@ -7,7 +7,7 @@
 				</div>
 				<div class="dd-box dd-slogan">
 					<span>Web Dev</span><br>
-					<span>Sqwad</span>
+					<span>Studio</span>
 				</div>
 			</a>
 		</div>
@@ -25,7 +25,7 @@
 				<div class="dd-contact">
 					<span class="dd-skype">skype-test</span>
 					<span class="dd-email">test@gmail.com</span>
-					<a href="#">Обратная связь</a> 
+					<a href="#log-in1" name="modal">Обратная связь</a> 
 				</div>
 			</div>
 		</div>
