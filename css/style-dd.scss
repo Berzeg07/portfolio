@@ -9,10 +9,13 @@
 }
 .mobile-menu{
 	display: none;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 15px;
 }
 .dd-header-wrap{
 	background:#2098D1;
 	padding: 10px 0px;
+	padding-bottom: 50px;
 }
 .dd-logo-hover:hover{
 	.dd-slogan{
@@ -79,6 +82,69 @@
 		border:1px solid #fff;
 		padding: 5px 6px;
 		transition:0.7s;
+		margin-top: 15px;
+	}
+	a:hover{
+		background:#fff;
+		color:#2098D1;
+	}
+}
+
+/* Текст на главной
+==========================*/
+.dd-title{
+	text-align: center;
+	margin-top: 100px;
+	span{
+		display: block;
+	}
+	span:nth-child(1){
+		font-family: "RobotoCondensedRegular";
+		color:#fff;
+		font-size: 2.5em;
+	}
+	span:nth-child(2){
+		font-family: "RobotoBold";
+		color:#CCCCCC;
+		font-size: 26px;
+	}
+	span:nth-child(3){
+		font-family: "RobotoCondensedRegular";
+		font-size: 34px;
+		margin-top: 10px;
+		color:#fff;
+		border-bottom: 2px solid #fff;
+		padding-bottom: 22px;
+	}
+	span:nth-child(4){
+		// font-family: "RobotoCondensedRegular";
+		 font-family: "RobotoMedium";
+		font-size: 34px;
+		margin-top: 10px;
+		color:#fff;
+	}
+}
+.dd-button{
+	text-align: center;
+	padding-top: 100px;
+	a{
+		display: inline-block;
+		border:2px solid #fff;
+		color:#fff;
+		padding: 10px 45px;
+		font-family: "RobotoCondensedRegular";
+		font-size: 21px;
+		transition:0.7s;
+		position: relative;
+	}
+	a:after{
+		content:"";
+		position: absolute;
+		background:url(../img/str.png) no-repeat;
+		width: 50px;
+		height: 25px;
+		bottom: -32px;
+		right: 50px;
 	}
 	a:hover{
 		background:#fff;
@@ -112,6 +178,7 @@
 	}
 	.mobile-menu{
 		display: block;
+		border-bottom: unset;
 	}
 	.dd-main-menu{
 		padding-top: 14px;
@@ -128,7 +195,7 @@
 }
 
 @media only screen and (min-width : 1248px) {
-		.dd-contact{
+	.dd-contact{
 		text-align: right;
 		span{
 			margin-right: 17px;
