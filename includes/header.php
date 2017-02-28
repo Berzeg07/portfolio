@@ -12,7 +12,7 @@
 			</a>
 		</div>
 		<div class="mobile-menu">
-			<div class="col-md-6">
+			<div class="col-md-5">
 				<div class="dd-main-menu">
 					<ul>
 						<li><a href="#">О нас</a></li>
@@ -21,10 +21,11 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-5">
 				<div class="dd-contact">
-					<span>skype-test</span>
-					<span>test@gmail.com</span> 
+					<span class="dd-skype">skype-test</span>
+					<span class="dd-email">test@gmail.com</span>
+					<a href="#">Обратная связь</a> 
 				</div>
 			</div>
 		</div>

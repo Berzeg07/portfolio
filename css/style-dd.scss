@@ -63,13 +63,21 @@
 		margin-right: 17px;
 		margin-top: 15px;
 	}
-	span:first-child{
+	.dd-skype{
 		background:url(../img/s.png) no-repeat left center;
 		padding-left: 26px;
 	}
-	span:last-child{
+	.dd-email{
 		background:url(../img/p.png) no-repeat left center;
 		padding-left: 26px;
+	}
+	a{
+		font-family: "RobotoCondensedRegular";
+		display: inline-block;
+		font-size: 14px;
+		color:#fff;
+		border:1px solid #fff;
+		padding: 5px 10px;
 	}
 }
 
