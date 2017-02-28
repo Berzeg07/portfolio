@@ -57,7 +57,7 @@ $(document).ready(function(){
 	function cleanTnanks(form){
 		$('input[type="text"]').removeClass("error-input");
 		$("input[type=text], textarea").val("");
-		$('.window').hide();
+		$('.window, #mask').hide();
         $('a[href=#thanks]').trigger('click');
     };
 
@@ -67,33 +67,8 @@ $(document).ready(function(){
 		$('.main-menu').slideToggle(500);
 	});	
 
-	/* Slider
-	=====================*/
-	var owl2 = $("#slider");
-	owl2.owlCarousel({
-		loop:true,
-		nav:true, 
-		autoplay:false,
-		smartSpeed:1000,
-		margin:25,
-        center:false,     //если нужны обрезаные края
-        navText:['<span class="nav-left"></span>','<span class="nav-right"></span>'],
-        responsive:{
-        	0:{
-        		items:1
-        	},
-        	480:{
-        		items:1 
-        	},
-        	990:{
-        		items:1
-        	},      
+	
 
-        	1248:{
-        		items:1
-        	}
-        }
-    });
 
     /* Аккордеон
     =========================*/

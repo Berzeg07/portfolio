@@ -1,5 +1,4 @@
-<section>
-	<div class="df-blocks">
+<section>	
 		<ul class="df-boxes">
 			<li class="dfliblock">
 				<a class="dflink" href="#">
@@ -120,8 +119,6 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, quibusdam.</p>
 					<a href="#" class="dfbutton">смотреть верстку</a>
 				</div>
-			</li>
-			
-		</ul>
-	</div>
+			</li>			
+		</ul>	
 </section>
