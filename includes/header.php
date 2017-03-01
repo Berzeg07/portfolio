@@ -39,7 +39,7 @@
 				<div class="dd-title">
 					<span class="animated bounceInDown">Верстка Адаптивных Шаблонов</span>
 					<span class="animated bounceInDown">{ HTML5 } { CSS3 } { jQwery }</span>
-					<span class="animated bounceInDown">Сжатые сроки, низкие цены</span>
+					<span class="animated bounceInDown">Быстро, Качественно, Низкие цены</span>
 					<span class="animated bounceInLeft">"Верстка лендинга не более 5000 руб."</span>
 				</div>
 				<div class="dd-button">

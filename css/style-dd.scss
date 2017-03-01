@@ -119,7 +119,7 @@
 	}
 	span:nth-child(4){
 		// font-family: "RobotoCondensedRegular";
-		 font-family: "RobotoMedium";
+		font-family: "RobotoMedium";
 		font-size: 34px;
 		margin-top: 10px;
 		color:#fff;
@@ -154,6 +154,103 @@
 	}
 }
 
+/* about
+=========================*/
+.about_container{
+	max-width: 680px;
+	margin: 0 auto;
+	// outline: 1px solid red;
+	padding-top: 50px;
+	padding: 10px;
+	p{
+		
+		font-family: "RobotoLight";
+		padding-bottom: 10px;
+	}
+	b{
+		font-weight: bold;
+	}
+	span{
+		display: block;
+		// font-family: "RobotoRegular";
+		font-family: "RobotoLight";
+		font-size: 20px;
+		// margin-bottom: 15px;
+		margin-bottom: 65px;
+	}
+	.sp1{
+		background:url(../img/sp1.png) no-repeat left center;
+		padding-left: 37px;
+		height: 30px;
+	}
+	.sp2{
+		background:url(../img/sp2.png) no-repeat left center;
+		padding-left: 37px;
+		height: 30px;
+	}
+	.sp3{
+		background:url(../img/sp3.png) no-repeat left center;
+		padding-left: 37px;
+		height: 30px;
+	}
+	.h2_how_work{
+		margin-top: 25px;
+	}
+}
+h2{
+	font-family: "RobotoCondensedRegular";
+	font-size: 35px;
+	padding-bottom: 25px;
+}
+
+/* faq
+=================================*/
+.faq_wrap{
+	background:#2098D1;
+	padding: 45px 0px;
+	margin-top: 55px;
+}
+.title{
+	text-align: center;
+	color:#fff;
+}
+.faq {
+	width: 800px;
+	margin: 0px auto;
+}
+
+.faq-title {
+	font-family: "RobotoCondensedRegular";
+	color:#fff;
+	background:#057DB6 url(../img/pl.png) no-repeat center right 15px;
+	transition:background-color 0.7s;
+	border-bottom: 1px solid #fff;
+	display: block;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 18px;
+}
+.active_ak{
+	background:#00619A url(../img/m.png) no-repeat center right 15px;
+}
+.faq-title:hover{
+	background-color:#00619A;
+}
+.faq-content {
+	padding: 15px 10px;
+	font-size: 15px;
+	display: none;
+	background:#fff;
+	p{
+		font-family: "RobotoLight";
+		font-size: 15px;
+	}
+}
+
+
+
+
+
 @media only screen and (min-width : 320px) {
 
 }
@@ -162,16 +259,23 @@
 	.dd-main-menu{
 		li{
 			display: inline-block;
-			margin-right: 15px;
+			margin-right: 5px;
 		}
 	}
-
+	.about_container{
+		span{
+			margin-bottom: 25px;
+		}
+	}
 }
 
 @media only screen and (min-width : 768px) {
 
-
-
+	.about_container{
+		span{
+			margin-bottom: 15px;
+		}
+	}
 }
 
 @media only screen and (min-width : 992px) {
