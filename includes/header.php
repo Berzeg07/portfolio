@@ -1,7 +1,10 @@
 <section class="dd-header-wrap">
 	<div class="container">
+		<div id="toTop" >
+		<img src="img/verh.png" alt="">
+		</div>
 		<div class="col-md-2">
-			<a class="dd-logo-hover" href="#">
+			
 				<div class="dd-box dd-logo">
 					<img src="img/logo.png" alt="">
 				</div>
@@ -9,15 +12,16 @@
 					<span>Web Dev</span><br>
 					<span>Studio</span>
 				</div>
-			</a>
+
 		</div>
 		<div class="mobile-menu">
 			<div class="col-md-5">
 				<div class="dd-main-menu">
-					<ul>
-						<li><a href="#">О нас</a></li>
-						<li><a class="dd-active" href="#">Портфолио</a></li>
-						<li><a href="#">Как мы работаем</a></li>
+					<ul id="js-nav">
+						<li><a href="#about">О нас</a></li>
+						<li><a class="dd-active" href="#portfolio">Портфолио</a></li>
+						<li><a href="#howitwork">Как мы работаем</a></li>
+						<li><a href="#faq">F.A.Q</a></li>
 					</ul>
 				</div>
 			</div>
@@ -43,7 +47,7 @@
 					<span class="animated bounceInLeft">"Верстка лендинга не более 5000 руб."</span>
 				</div>
 				<div class="dd-button">
-					<a class="animated pulse" href="#">Портфолио</a>
+					<a class="animated pulse" href="#portfolio">Портфолио</a>
 				</div>
 			</div>
 		</div>

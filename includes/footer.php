@@ -1,5 +1,35 @@
-<div id="mask"></div>
+<section class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+			
+					<div class="dd-box dd-logo">
+						<img src="img/logo.png" alt="">
+					</div>
+					<div class="dd-box dd-slogan">
+						<span>Web Dev</span><br>
+						<span>Studio</span>
+					</div>
+			
+			</div>
+			<div class="col-md-2">
+				<div class="copy">
+					<span>copyright © 2017</span>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="dd-contact">
+					<span class="dd-skype">skype-test</span>
+					<span class="dd-email">test@gmail.com</span>
+					<a href="#log-in1" name="modal">Обратная связь</a> 
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</section>
 
+<div id="mask"></div>
 <div class="df-popup window" id="log-in1">
 	<div class="dd-close"><img src="img/df-close.png" alt=""></div>
 	<h3 class="df-deliverycap df-gruzcap1">Напишите ваш вопрос, <br> мы ответим вам в течении суток</h3>		
@@ -14,7 +44,7 @@
 
 <a href="#thanks" name="modal"></a>
 <div class="df-popup window" id="thanks">
-<div class="dd-close"><img src="img/df-close.png" alt=""></div>
+	<div class="dd-close"><img src="img/df-close.png" alt=""></div>
 	<h3 class="df-deliverycap df-gruzcap1">Спасибо за ваше обращение, <br> мы ответим вам в ближайшее время</h3>
 </div>
 

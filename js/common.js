@@ -58,8 +58,8 @@ $(document).ready(function(){
 		$('input[type="text"]').removeClass("error-input");
 		$("input[type=text], textarea").val("");
 		$('.window, #mask').hide();
-        $('a[href=#thanks]').trigger('click');
-    };
+		$('a[href=#thanks]').trigger('click');
+	};
 
 	/* Mobile-menu
 	========================*/
@@ -73,23 +73,45 @@ $(document).ready(function(){
     /* Аккордеон
     =========================*/
 
-    	$(".js-faq-tittle").click(function(e){
-    		e.preventDefault();
-    		var $this = $(this);
-    		answerId = $this.attr("href");
+    $(".js-faq-tittle").click(function(e){
+    	e.preventDefault();
+    	var $this = $(this);
+    	answerId = $this.attr("href");
 
-    		if( !$this.hasClass("active_ak")){
-    			$(".js-faq-content").slideUp();
-    			$(".js-faq-tittle").removeClass("active_ak");
-    		}
+    	if( !$this.hasClass("active_ak")){
+    		$(".js-faq-content").slideUp();
+    		$(".js-faq-tittle").removeClass("active_ak");
+    	}
 
-    		$this.toggleClass("active_ak"); 
-    		$(answerId).slideToggle();
+    	$this.toggleClass("active_ak"); 
+    	$(answerId).slideToggle();
 
-    	});
-    	$(".js-faq-tittle:first").click();
+    });
+    $(".js-faq-tittle:first").click();
 
+/* Наверх
+=========================*/
+$(window).scroll(function() {
+	if($(this).scrollTop() != 0) {
+		$('#toTop').fadeIn();
+	} else {
+		$('#toTop').fadeOut();
+	}
+});
+$('#toTop').click(function() {
+	$('body,html').animate({scrollTop:0},800);
+});
 
+/* Якоря
+=======================*/
+$("#js-nav a, .dd-button a").click(function(e){
+	e.preventDefault();
+	var currentBlock = $(this).attr("href");
+	currentBlockoffset = $(currentBlock).offset().top;
+	$("html, body").animate({
+		scrollTop: currentBlockoffset
+	}, 500);
+});
 
 });
 

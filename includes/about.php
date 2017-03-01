@@ -1,4 +1,4 @@
-<section>
+<section id="about">
 	<div class="container">
 		<div class="row">
 			<div class="about_container">
@@ -25,7 +25,7 @@
 					и получить ответы на все интересующие вопросы.     
 
 				</p>
-				<h2 class="h2_how_work">Как мы работаем</h2>
+				<h2 class="h2_how_work" id="howitwork" >Как мы работаем</h2>
 				<span class="sp1">БЕСПЛАТНО реализуем один из блоков вашего сайта</span>
 				<span class="sp2">Оценивайте результат, подходит ли вам наша услуга</span>
 				<span class="sp3">Принимайте решение о сотрудничестве</span>
@@ -34,7 +34,7 @@
 	</div>
 </section>
 
-<section class="faq_wrap">
+<section class="faq_wrap" id="faq">
 	<div class="container">
 		<div class="row">
 			<h2 class="title">FAQ</h2>
@@ -64,7 +64,7 @@
 				</div>
 
 				<div class="faq__item">
-					<a href="#question-3" class="faq-title js-faq-tittle" >На какие сроки выполнения стоит расчитывать?</a>
+					<a href="#question-3" class="faq-title js-faq-tittle" >На какие сроки выполнения стоит рассчитывать?</a>
 					<div class="faq-content js-faq-content" id="question-3">
 						<p>В зависимости от нашей загрузки, верстка лендинга занимает не более 3 дней, бывает завершаем проект за 1 или 2 дня. При работе с многостраничными сайтами сроки обговаривается индивидуально.</p>
 					</div>
