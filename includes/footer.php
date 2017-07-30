@@ -48,5 +48,11 @@
 	<h3 class="df-deliverycap df-gruzcap1">Спасибо за ваше обращение, <br> мы ответим вам в ближайшее время</h3>
 </div>
 
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/wow/wow.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/common.js"></script>
+
 </body>
 </html>

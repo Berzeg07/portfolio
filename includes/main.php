@@ -7,7 +7,7 @@
 				<div class="dfhover">
 					<h3>Магазинчик Гоблина</h3>
 					<p>Верстка интернет магазина по продаже игровых аксессуаров</p>
-					<a href="goblin.php" class="dfbutton">смотреть верстку</a>
+					<a href="http://goblinshop.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>
 			<li class="dfliblock">
@@ -17,7 +17,7 @@
 				<div class="dfhover">
 					<h3>Мой Голос</h3>
 					<p>Лендинг для звукозаписывающей студии</p>
-					<a href="#" class="dfbutton">смотреть верстку</a>
+					<a href="http://golos.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>
 			<li class="dfliblock">
@@ -27,7 +27,7 @@
 				<div class="dfhover">
 					<h3>Standart Resurs</h3>
 					<p>Сайт для строительной фирмы</p>
-					<a href="#" class="dfbutton">смотреть верстку</a>
+					<a  href="http://resurs.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>
 			<li class="dfliblock">
@@ -37,7 +37,7 @@
 				<div class="dfhover">
 					<h3>Author</h3>
 					<p>Лендинг для фирмы противоугонных систем</p>
-					<a href="#" class="dfbutton">смотреть верстку</a>
+					<a  href="http://author.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>
 			<li class="dfliblock">
@@ -47,7 +47,7 @@
 				<div class="dfhover">
 					<h3>Powerclass</h3>
 					<p>Большой лендинг со сложным функционалом для фирмы по продаже спортивного питания</p>
-					<a href="#" class="dfbutton">смотреть верстку</a>
+					<a  href="http://powerclass.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>
 			<li class="dfliblock">
@@ -57,7 +57,7 @@
 				<div class="dfhover">
 					<h3>Твой Терем</h3>
 					<p>Каркасные дома и бани из бруса под ключ</p>
-					<a href="#" class="dfbutton">смотреть верстку</a>
+					<a  href="http://tvoy-terem.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>
 			<li class="dfliblock">
@@ -67,7 +67,7 @@
 				<div class="dfhover">
 					<h3>Sheriff-stone</h3>
 					<p>Подарочные камни для виски</p>
-					<a href="#" class="dfbutton">смотреть верстку</a>
+					<a  href="http://sherif.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>
 			<li class="dfliblock">
@@ -77,7 +77,7 @@
 				<div class="dfhover">
 					<h3>Брус</h3>
 					<p>Сайт для фирмы торгующей профилированным брусом</p>
-					<a href="#" class="dfbutton">смотреть верстку</a>
+					<a  href="http://brus.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>
 			<li class="dfliblock">
@@ -87,7 +87,7 @@
 				<div class="dfhover">
 					<h3>Кадобра</h3>
 					<p>Школа программирования и цифрового творчества</p>
-					<a href="#" class="dfbutton">смотреть верстку</a>
+					<a  href="http://kadobra.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>
 			<li class="dfliblock">
@@ -97,7 +97,7 @@
 				<div class="dfhover">
 					<h3>Коллекция часов казахстан</h3>
 					<p>Сайт по продаже эксклюзивных аксессуаров</p>
-					<a href="#" class="dfbutton">смотреть верстку</a>
+					<a  href="http://watch.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>
 			<li class="dfliblock">
@@ -107,7 +107,7 @@
 				<div class="dfhover">
 					<h3>Casenoskov</h3>
 					<p>Кейс носков по очень выгодной цене :)</p>
-					<a href="#" class="dfbutton">смотреть верстку</a>
+					<a  href="http://casenoskov.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>
 			<li class="dfliblock">
@@ -117,7 +117,7 @@
 				<div class="dfhover">
 					<h3>Хламовозов</h3>
 					<p>Сайт для фирмы грузоперевозок</p>
-					<a href="#" class="dfbutton">смотреть верстку</a>
+					<a  href="http://hlamovozov.webdevmaster.ru/" target="_blank" class="dfbutton">смотреть верстку</a>
 				</div>
 			</li>			
 		</ul>	

@@ -2,6 +2,12 @@
 
 $(document).ready(function(){
 
+	$('.dd-burger').click(function(){
+		$('.mobile-menu').slideToggle(500);
+	});
+
+	new WOW().init();
+
 	$('a[name=modal]').click(function(e) {
 		e.preventDefault();
 		var id = $(this).attr('href');
